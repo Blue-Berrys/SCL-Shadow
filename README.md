@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Deep learning-based shadow detection has made significant progress in recent years. However, annotation noise in training data causes existing methods to misidentify dark non-shadow regions and produce imprecise shadow boundaries. In this paper, we propose a robust shadow detection framework that identifies unreliable labels during training and reduces their negative effects. Specifically, we introduce an **Iterative Confidence Aggregation (ICA)** mechanism that accumulates pixel-wise prediction probabilities over time to identify unreliable pixels and adjust their supervision weights. We further design a **Spatial Consistency Verification (SCV)** mechanism that downweights supervision in regions with inconsistent local boundary structures. Finally, we adopt an **Alternating Loss Function (ALF)** strategy that switches between the original and weighted losses during training to improve robustness and reduce overfitting. Compared with the state-of-the-art baseline, our method reduces BER by **8.16%** on SBU and **10.20%** on ISTD.
+Deep learning-based shadow detection has made significant progress in recent years. However, annotation noise in training data causes existing methods to misidentify dark non-shadow regions and produce imprecise shadow boundaries. In this paper, we propose a robust shadow detection framework that identifies unreliable labels during training and reduces their negative effects. Specifically, we introduce an **Iterative Confidence Aggregation (ICA)** mechanism that accumulates pixel-wise prediction probabilities over time to identify unreliable pixels and adjust their supervision weights. We further design a **Spatial Consistency Verification (SCV)** mechanism that downweights supervision in regions with inconsistent local boundary structures. Finally, we adopt a **Boundary Refined Loss Function (BRLF)** strategy that switches between the original and weighted losses during training to improve robustness and reduce overfitting. Compared with the state-of-the-art baseline, our method reduces BER by **8.16%** on SBU and **10.20%** on ISTD.
 
 ## Framework
 
@@ -12,7 +12,7 @@ The proposed framework consists of three complementary components built upon SDD
 
 - **ICA** — Iterative Confidence Aggregation: accumulates historical predictions via EMA to identify unreliable pixels and downweight their supervision.
 - **SCV** — Spatial Consistency Verification: evaluates local boundary structure consistency to suppress supervision in spatially inconsistent regions.
-- **ALF** — Alternating Loss Function: periodically switches between the original SDDNet loss and the weighted loss to balance disentanglement stability and reliability-weighted supervision.
+- **BRLF** — Boundary Refined Loss Function: periodically switches between the original SDDNet loss and the weighted loss to balance disentanglement stability and reliability-weighted supervision.
 
 ### ICA Mechanism
 
