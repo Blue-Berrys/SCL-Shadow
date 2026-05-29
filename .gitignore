@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# OS
+.DS_Store
+
+# Experiment artifacts
+runs/
+checkpoints/
+*.pth
+*.pt
+*.log
+outputs/
+
+# Data (do not commit benchmark datasets)
+data/
+datasets/
+
+# Editor
+.idea/
+.vscode/

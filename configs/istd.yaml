@@ -1,0 +1,34 @@
+# SCL-Shadow configuration for the ISTD benchmark.
+seed: 42
+
+model:
+  name: reference_unet
+
+data:
+  train_root: data/ISTD/train
+  val_root: data/ISTD/test
+  image_dir: images
+  mask_dir: masks
+  size: [416, 416]
+  num_workers: 4
+
+train:
+  epochs: 50
+  batch_size: 4
+  lr: 0.0005
+  poly_power: 0.7
+  ckpt_path: checkpoints/scl_istd_best.pth
+
+ica:
+  alpha: 0.9
+  tau_high: 0.80
+  tau_low: 0.20
+  lambda_ica: 0.50
+
+scv:
+  epsilon: 1
+  lambda_scv: 0.60
+
+brlf:
+  warmup_epochs: 5
+  period: 1
