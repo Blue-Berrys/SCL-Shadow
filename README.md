@@ -1,8 +1,24 @@
-# Shadow Detection with Self-Calibration and Spatial Constraint
+# Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels
+
+This repository accompanies the manuscript submitted to *The Visual Computer*. It currently provides the paper overview and key framework illustrations. The training and evaluation code, configuration files, and model checkpoints are being organized and will be released after internal cleanup.
 
 ## Abstract
 
-Deep learning-based shadow detection has made significant progress in recent years. However, annotation noise in training data causes existing methods to misidentify dark non-shadow regions and produce imprecise shadow boundaries. In this paper, we propose a robust shadow detection framework that identifies unreliable labels during training and reduces their negative effects. Specifically, we introduce an **Iterative Confidence Aggregation (ICA)** mechanism that accumulates pixel-wise prediction probabilities over time to identify unreliable pixels and adjust their supervision weights. We further design a **Spatial Consistency Verification (SCV)** mechanism that downweights supervision in regions with inconsistent local boundary structures. Finally, we adopt a **Boundary Refined Loss Function (BRLF)** strategy that switches between the original and weighted losses during training to improve robustness and reduce overfitting. Compared with the state-of-the-art baseline, our method reduces BER by **8.16%** on SBU and **10.20%** on ISTD.
+Deep learning-based shadow detection has advanced considerably, yet performance remains limited by annotation noise and imprecise boundary predictions in real-world datasets. This paper presents a robust shadow detection framework designed to mitigate the adverse effects of unreliable training labels and preserve spatial structural consistency. The proposed approach integrates three complementary mechanisms: **Iterative Confidence Aggregation (ICA)**, **Spatial Consistency Verification (SCV)**, and **Boundary Refined Loss Function (BRLF)**. Compared with the SDDNet baseline, our method reduces BER by **8.16%** on SBU and **10.24%** on ISTD, while achieving state-of-the-art performance on SBU and UCF.
+
+## Code Availability
+
+The source code is not included in this initial public repository yet. We are cleaning the training scripts, evaluation protocol, configuration files, and pretrained checkpoints to make the release reproducible and easy to use.
+
+Planned release contents:
+
+- training and evaluation code;
+- dataset preparation instructions for SBU, ISTD, UCF, and ViSha;
+- configuration files for the reported experiments;
+- pretrained model checkpoints;
+- instructions for reproducing the main quantitative results.
+
+The repository will be updated once these files are ready for public release.
 
 ## Framework
 
