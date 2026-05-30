@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "SCL-Shadow: Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"
+type: software
+authors:
+  - family-names: Xie
+    given-names: Jiaxuan
+    affiliation: Hangzhou Dianzi University
+  - family-names: Chen
+    given-names: Xiao-Diao
+    affiliation: Hangzhou Dianzi University
+  - family-names: Mo
+    given-names: Yuchang
+    affiliation: Zhejiang University of Water Resources and Electric Power
+  - family-names: Wu
+    given-names: Wen
+    affiliation: Zhejiang University of Water Resources and Electric Power
+license: MIT
+repository-code: "https://github.com/Blue-Berrys/SCL-Shadow"
+keywords:
+  - shadow detection
+  - noisy labels
+  - spatial consistency
+  - dense prediction
+  - boundary refinement
+preferred-citation:
+  type: article
+  title: "Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"
+  authors:
+    - family-names: Xie
+      given-names: Jiaxuan
+    - family-names: Chen
+      given-names: Xiao-Diao
+    - family-names: Mo
+      given-names: Yuchang
+    - family-names: Wu
+      given-names: Wen
+  journal: "The Visual Computer"
+  year: 2026
