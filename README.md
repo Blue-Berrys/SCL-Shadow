@@ -1,5 +1,8 @@
 # SCL-Shadow
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20455673.svg)](https://doi.org/10.5281/zenodo.20455673)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Official code for **"Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"** (submitted to *The Visual Computer*).
 
 A training-time, backbone-agnostic framework that makes shadow detectors robust to label noise — **without changing the raw labels and with zero extra inference cost**. Built on SDDNet, it adds three training-only components:
