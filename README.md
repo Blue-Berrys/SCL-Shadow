@@ -14,12 +14,7 @@ A training-time, backbone-agnostic framework that makes shadow detectors robust 
 
 | Method | Venue | ISTD | SBU | UCF |
 |--------|:-----:|:----:|:---:|:---:|
-| BDRAR | ECCV'18 | 2.69 | 3.64 | 7.81 |
-| DSDNet | CVPR'19 | 2.17 | 3.45 | 7.59 |
-| MTMT-Net | CVPR'20 | 1.72 | 3.15 | 7.47 |
 | FDRNet | ICCV'21 | 1.55 | 3.04 | 7.28 |
-| RCMPNet | MM'21 | 1.61 | 2.98 | 6.75 |
-| R2D | WACV'23 | 1.69 | 3.15 | 6.96 |
 | SILT | ICCV'23 | 1.16 | 4.19† | 7.23† |
 | SDDNet (baseline) | MM'23 | 1.27 | 2.94 | 6.59 |
 | AdapterShadow | ESWA'25 | **0.86** | <u>2.75</u> | <u>6.35</u> |
