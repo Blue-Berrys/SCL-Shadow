@@ -1,6 +1,6 @@
 {
   "title": "SCL-Shadow: Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels",
-  "description": "Official code for the paper \"Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels\" (submitted to The Visual Computer). A training-time, backbone-agnostic framework that makes shadow detectors robust to label noise via Iterative Confidence Aggregation (ICA), Spatial Consistency Verification (SCV), and a Boundary Refined Loss Function (BRLF), without changing the raw labels and with zero extra inference cost.",
+  "description": "Official code for the paper \"Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels\". A training-time, backbone-agnostic framework that makes shadow detectors robust to label noise via Iterative Confidence Aggregation (ICA), Spatial Consistency Verification (SCV), and a Boundary Refined Loss Function (BRLF), without changing the raw labels and with zero extra inference cost.",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",

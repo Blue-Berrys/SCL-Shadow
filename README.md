@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20455673.svg)](https://doi.org/10.5281/zenodo.20455673)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Official code for **"Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"** (submitted to *The Visual Computer*).
+Official code for **"Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"**.
 
 A training-time, backbone-agnostic framework that makes shadow detectors robust to label noise — **without changing the raw labels and with zero extra inference cost**. Built on SDDNet, it adds three training-only components:
 
@@ -30,11 +30,10 @@ Compared with the SDDNet baseline, our method reduces BER by **8.16%** on SBU an
 ## Citation
 
 ```bibtex
-@article{xie2026sclshadow,
-  title   = {Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels},
-  author  = {Xie, Jiaxuan and Chen, Xiao-Diao and Mo, Yuchang and Wu, Wen},
-  journal = {The Visual Computer},
-  year    = {2026}
+@misc{xie2026sclshadow,
+  title  = {Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels},
+  author = {Xie, Jiaxuan and Chen, Xiao-Diao and Mo, Yuchang and Wu, Wen},
+  year   = {2026}
 }
 ```
 

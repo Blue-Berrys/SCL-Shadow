@@ -24,7 +24,7 @@ keywords:
   - dense prediction
   - boundary refinement
 preferred-citation:
-  type: article
+  type: generic
   title: "Self-Calibrated Shadow Detection with Spatial Consistency Constraints under Noisy Labels"
   authors:
     - family-names: Xie
@@ -35,5 +35,4 @@ preferred-citation:
       given-names: Yuchang
     - family-names: Wu
       given-names: Wen
-  journal: "The Visual Computer"
   year: 2026
